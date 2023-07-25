@@ -13,7 +13,6 @@ echo echo current-directory:%cd% >> cd.bat
 echo kali2 >> cd.bat
 
 :add-ls
-echo @echo off >> ls.bat
 echo dir >> ls.bat
 echo kali2 >> ls.bat
 
