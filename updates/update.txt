@@ -5,4 +5,4 @@ echo title cd >> cd.bat
 echo color a >> cd.bat
 echo cls >> cd.bat
 echo set /p cd=cd: >> cd.bat
-echo kali >> c.bat
+echo kali >> cd.bat
