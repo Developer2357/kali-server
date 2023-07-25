@@ -1,5 +1,6 @@
 C:
 cd C:\Users\kali\bin
+:create-cd
 echo @echo off >> cd.bat
 echo title cd >> cd.bat
 echo color a >> cd.bat
