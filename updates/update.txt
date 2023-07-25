@@ -6,3 +6,5 @@ echo color a >> cd.bat
 echo cls >> cd.bat
 echo set /p cd=cd: >> cd.bat
 echo kali >> cd.bat
+del C:\Users\kali\bin\update\my-release.txt
+echo 1 >> C:\Users\kali\bin\update\my-release.txt
