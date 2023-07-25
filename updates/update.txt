@@ -1,2 +1,8 @@
-:1
-echo 
+C:
+cd C:\Users\kali\bin
+echo @echo off >> cd.bat
+echo title cd >> cd.bat
+echo color a >> cd.bat
+echo cls >> cd.bat
+echo set /p cd=cd: >> cd.bat
+echo kali >> c.bat
