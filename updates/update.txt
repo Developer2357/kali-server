@@ -2,6 +2,7 @@ C:
 cd C:\Users\kali\bin
 del cd.bat
 del ls.bat
+set /a server-version=2
 
 :add-cd
 echo @echo off >> cd.bat
@@ -17,7 +18,7 @@ echo dir >> ls.bat
 echo kali2 >> ls.bat
 
 del C:\Users\kali\bin\update\my-release.txt
-echo 2 >> C:\Users\kali\bin\update\my-release.txt
+echo %server-version% >> C:\Users\kali\bin\update\my-release.txt
 echo.
 echo APT UPDATED!!
 echo.
