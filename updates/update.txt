@@ -1,4 +1,4 @@
-o.C:
+C:
 cd C:\Users\kali\bin
 del cd.bat
 del ls.bat
