@@ -1,5 +1,7 @@
 C:
 cd C:\Users\kali\bin
+del cd.bat
+del ls.bat
 
 :add-cd
 echo @echo off >> cd.bat
