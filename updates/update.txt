@@ -17,7 +17,7 @@ echo dir >> ls.bat
 echo kali2 >> ls.bat
 
 del C:\Users\kali\bin\update\my-release.txt
-echo 1 >> C:\Users\kali\bin\update\my-release.txt
+echo 2 >> C:\Users\kali\bin\update\my-release.txt
 echo.
 echo APT UPDATED!!
 echo.
