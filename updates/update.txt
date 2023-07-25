@@ -9,7 +9,8 @@ echo @echo off >> cd.bat
 echo color a >> cd.bat
 echo echo current-directory:%cd% >> cd.bat
 echo set /p cd=cd: >> cd.bat
-echo echo current-directory:%cd% >> cd.bat
+echo if not exist %%cd%% set cd=cd >> cd.bat
+echo echo current-directory:%%cd%% >> cd.bat
 echo kali2 >> cd.bat
 
 :add-ls
