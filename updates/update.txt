@@ -1,13 +1,19 @@
 C:
 cd C:\Users\kali\bin
-:create-cd
+
+:add-cd
 echo @echo off >> cd.bat
-echo title cd >> cd.bat
 echo color a >> cd.bat
 echo echo current-directory:%cd% >> cd.bat
 echo set /p cd=cd: >> cd.bat
 echo echo current-directory:%cd% >> cd.bat
 echo kali2 >> cd.bat
+
+:add-ls
+echo @echo off >> ls.bat
+echo dir >> ls.bat
+echo kali2 >> ls.bat
+
 del C:\Users\kali\bin\update\my-release.txt
 echo 1 >> C:\Users\kali\bin\update\my-release.txt
 echo.
