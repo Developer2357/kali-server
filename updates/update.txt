@@ -9,10 +9,14 @@ echo @echo off >> cd.bat
 echo color a >> cd.bat
 echo echo current-directory:%cd% >> cd.bat
 echo set /p directory=cd: >> cd.bat
-echo if not exist %%cd%% set cd=cd )else(
-set cd=directory >> cd.bat
+echo if not exist %%cd%% goto :nexist 
+set cd %%directory%% >> cd.bat
+echo :done >> cd.bat
 echo echo current-directory:%%cd%% >> cd.bat
 echo kali2 >> cd.bat
+
+echo :nexist >> cd.bat
+echo if %%directory%% == .. cd .. else goto :done >> cd.bat
 
 :add-ls
 echo dir >> ls.bat
